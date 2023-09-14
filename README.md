@@ -38,8 +38,8 @@
 ```bash
     sudo systemctl restart keyd
 ```
+### Test to verify it works
 
-## Test to verify it works
-## Useful information at:
+## More information about configuration options and examples at:
 1. https://github.com/rvaiya/keyd
 2. https://github.com/rvaiya/keyd/blob/master/docs/keyd.scdoc
