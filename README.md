@@ -2,16 +2,16 @@
 
 ### Preparation
 
-'''bash
+```bash
     sudo apt install cmake libudev-dev
     git clone https://github.com/rvaiya/keyd
     cd keyd
     make && sudo make install
     sudo systemctl enable keyd && sudo systemctl start keyd
-'''
+```
 
 ### Find the device and key you want to change
-1. Use the command 'sudo keyd monitor'
+1. Use the command `sudo keyd monitor`
 2. Press the key you want to configure
 3. Get the device ID and the key codename
 
@@ -19,11 +19,11 @@
 
 ### Create a configuration file(<insert-name>.conf) to mapped keyd folder(/etc/keyd)
 
-'''bash
-    sudo nano /etc/keyd/AT\ Translated\ Set\ 2\ keyboard.conf
-'''
+```bash
+    sudo nano /etc/keyd/ATTranslatedSet2keyboard.conf
+```
 ## Demo to disable up arrow key from laptop built-in keyboard
-'''
+```
     [ids]
 
     0001:0001
@@ -31,13 +31,13 @@
     [main]
 
     up = noop
-'''  
+```  
 
 ### After configaration file is finished
 
-'''bash
+```bash
     sudo systemctl restart keyd
-'''
+```
 
 ## Test to verify it works
 ## Useful information at:
