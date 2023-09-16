@@ -43,3 +43,4 @@
 ## More information about configuration options and examples at:
 1. https://github.com/rvaiya/keyd
 2. https://github.com/rvaiya/keyd/blob/master/docs/keyd.scdoc
+3. https://askubuntu.com/questions/1364352/remap-a-key-combination-to-another-combination-e-g-altgrc-ctrlc-under-wa/1364828#1364828
